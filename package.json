@@ -11,9 +11,13 @@
   },
   "dependencies": {
     "@blueprintjs/core": "^5.17.6",
+    "@reduxjs/toolkit": "^2.6.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.4.1"
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
