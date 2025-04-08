@@ -26,16 +26,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Pessoas:</h1>
         {pessoas.map(pessoa =>(
-            <h2>{pessoa.nome}-{pessoa.idade}</h2>
+            <h2 key={pessoa.id}>{pessoa.nome}-{pessoa.idade}</h2>
         ))}
       <div className="card">
         <Button intent="primary" text={"Contador é: " + count} onClick={() => setCount(count + 1)} />
         <Link to={'/cadastrar'}>Cadastrar Pessoas</Link>
-          <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
