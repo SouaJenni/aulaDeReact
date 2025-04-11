@@ -8,6 +8,11 @@ export const pessoaReducer = (state = estadoInicial, action) => {
             return {
                 ...state
             }
+        case 'SET_PESSOAS':
+            return{
+                ...state,
+                pessoas: action.payload
+            }
         default:
             return state;
     }
