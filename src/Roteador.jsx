@@ -1,7 +1,7 @@
 import React from 'react';
-import {Route, BrowserRouter, Routes} from "react-router-dom";
-import App from "./App.jsx";
-import {CadastrarPessoa} from "./CadastrarPessoa.jsx";
+import {Route, BrowserRouter, Routes} from 'react-router-dom';
+import App from './App.jsx';
+import {CadastrarPessoa} from './CadastrarPessoa.jsx';
 
 export function Roteador(){
     return (
@@ -11,5 +11,5 @@ export function Roteador(){
                 <Route path="/cadastrar" element={<CadastrarPessoa/>} />
             </Routes>
         </BrowserRouter>
-    )
+    );
 }

@@ -1,5 +1,5 @@
-import {configureStore} from "@reduxjs/toolkit";
-import {pessoaReducer} from "./reducer.js";
+import {configureStore} from '@reduxjs/toolkit';
+import {pessoaReducer} from './reducer.js';
 
 export const store = configureStore({
     reducer: {
@@ -7,4 +7,4 @@ export const store = configureStore({
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
     devTools: true
-})
+});
