@@ -4,11 +4,6 @@ const estadoInicial = {
 
 export const pessoaReducer = (state = estadoInicial, action) => {
     switch (action.type) {
-    case 'CADASTRAR_PESSOA':
-        return {
-            ...state,
-            pessoas: [...state.pessoas, action.payload]
-        };
     case 'SET_PESSOAS':
         return{
             ...state,

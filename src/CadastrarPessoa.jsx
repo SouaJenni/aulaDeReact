@@ -1,9 +1,11 @@
 import React from 'react';
-import './App.css';
-import {Button, FormGroup, H1, InputGroup, NumericInput} from '@blueprintjs/core';
 import {useDispatch} from 'react-redux';
-import {cadastrarPessoa, setIdade, setNome} from "./actions.js";
-import {useNavigate} from "react-router-dom";
+import {useNavigate} from 'react-router-dom';
+
+import {Button, FormGroup, H1, InputGroup, NumericInput} from '@blueprintjs/core';
+
+import {cadastrarPessoa, setIdade, setNome} from './actions.js';
+import './App.css';
 
 export function CadastrarPessoa(){
     const dispatch = useDispatch();

@@ -1,5 +1,3 @@
-import {Intent, OverlayToaster} from '@blueprintjs/core';
-
 export function buscarPessoas() {
     return async (dispatch) =>{
         try{
@@ -32,12 +30,6 @@ export function setIdade(idade){
     return{
         type: 'SET_IDADE',
         payload: idade
-    };
-}
-function addPessoa(pessoa){
-    return {
-        type: 'CADASTRAR_PESSOA',
-        payload: pessoa
     };
 }
 

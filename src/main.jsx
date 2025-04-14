@@ -1,10 +1,11 @@
 import React from 'react';
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
-import {Roteador} from './Roteador.jsx';
 import {Provider} from 'react-redux';
+import { createRoot } from 'react-dom/client';
+
+import {Roteador} from './Roteador.jsx';
 import {store} from './store.js';
+import './index.css';
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
