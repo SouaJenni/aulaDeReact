@@ -193,6 +193,22 @@
     tslib "~2.6.2"
     use-sync-external-store "^1.2.0"
 
+"@blueprintjs/core@^5.18.0":
+  version "5.18.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-5.18.0.tgz#777f0a44c96d04914120fe995edf1ee945a01603"
+  integrity sha512-AkFZUIWJlzvG1r5cu4k1gcsM338OKuWfjJZqZLnYRViNqyMBOePj04bfaW0dcnVjwxYjvFqwdo4+SWw/zPCt5g==
+  dependencies:
+    "@blueprintjs/colors" "^5.1.8"
+    "@blueprintjs/icons" "^5.21.0"
+    "@popperjs/core" "^2.11.8"
+    classnames "^2.3.1"
+    normalize.css "^8.0.1"
+    react-popper "^2.3.0"
+    react-transition-group "^4.4.5"
+    react-uid "^2.3.3"
+    tslib "~2.6.2"
+    use-sync-external-store "^1.2.0"
+
 "@blueprintjs/icons@^5.20.0":
   version "5.20.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-5.20.0.tgz#81db26eadd681dcd734976b56debd376f96707cb"
@@ -200,6 +216,25 @@
   dependencies:
     change-case "^4.1.2"
     classnames "^2.3.1"
+    tslib "~2.6.2"
+
+"@blueprintjs/icons@^5.21.0":
+  version "5.21.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-5.21.0.tgz#bcf332508fdb81057156b67dc5b1f8aba92d0319"
+  integrity sha512-zG9CGJES1pih8bUfcCW0SdWskR6obdIHC+6XFIh7H1frEDcfqGNlDi7oenfep7UwC2XXwy6a+pUG/R5SxZvMDA==
+  dependencies:
+    change-case "^4.1.2"
+    classnames "^2.3.1"
+    tslib "~2.6.2"
+
+"@blueprintjs/table@^5.3.13":
+  version "5.3.13"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-5.3.13.tgz#19390ebfcaf3779cdf2d985b6638aadea9bb5ba0"
+  integrity sha512-h3TVsdpr2X/31K9Px9HBSUv71AcCYpr0eTdhnFu/Ro9hProtuj1wDrjVS+P0N1hmYyOIl3ps5nZXd5bOhIzEVg==
+  dependencies:
+    "@blueprintjs/core" "^5.18.0"
+    classnames "^2.3.1"
+    react-innertext "^1.1.5"
     tslib "~2.6.2"
 
 "@esbuild/aix-ppc64@0.25.2":
@@ -2066,6 +2101,11 @@ react-fast-compare@^3.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.2.tgz#929a97a532304ce9fee4bcae44234f1ce2c21d49"
   integrity sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==
 
+react-innertext@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/react-innertext/-/react-innertext-1.1.5.tgz#8147ac54db3f7067d95f49e2d2c05a720d27d8d0"
+  integrity sha512-PWAqdqhxhHIv80dT9znP2KvS+hfkbRovFp4zFYHFFlOoQLRiawIic81gKb3U1wEyJZgMwgs3JoLtwryASRWP3Q==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -2108,6 +2148,11 @@ react-router@7.4.1:
     cookie "^1.0.1"
     set-cookie-parser "^2.6.0"
     turbo-stream "2.4.0"
+
+react-table@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.8.0.tgz#07858c01c1718c09f7f1aed7034fcfd7bda907d2"
+  integrity sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==
 
 react-transition-group@^4.4.5:
   version "4.4.5"
