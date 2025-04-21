@@ -21,7 +21,7 @@ function App() {
     return (
         <div style={{padding: '20px'}}>
             <H1>Pessoas:</H1>
-            <div style={{height: `${pessoas.length * 40+40}px`, width: '100%', marginBottom: '20px', overflow: 'hidden'}}>
+            <div className={'table'} style={{height: `${pessoas.length * 40+40}px`, width: '100%', marginBottom: '20px', overflow: 'hidden'}}>
                 <Table2
                     numRows={pessoas.length}
                     enableRowHeader={false}

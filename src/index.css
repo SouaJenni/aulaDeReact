@@ -42,3 +42,19 @@ button {
   margin: 10px;
 }
 
+.bp5-table-header .bp5-table-row-name,
+.bp5-table-header .bp5-table-column-name,
+.bp5-table-header .bp5-table-header-content .table {
+  background-color: slateblue;
+  color: whitesmoke;
+  align-items: center;
+  font-family: 'Arial Black';
+}
+
+.bp5-table-cell {
+  background-color: gainsboro;
+  color: #242424;
+  font-size: 15px;
+  font-family: 'Arial';
+}
+
